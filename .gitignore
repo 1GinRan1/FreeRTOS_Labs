@@ -1,41 +1,31 @@
-# Prerequisites
-*.d
+.vs/
+.vscode/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+x64/
+Debug/
+Release/
+Win32/
+
+*.user
+*.suo
+
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
 *.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+*.ilk
 *.exe
-*.out
-*.app
+*.dll
+*.lib
+*.log
+vc*.pdb
 
-# debug information files
-*.dwo
+Trace.dump
+*.dump
+
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+main_blinky.c
+main_full.c
+Run-time-stats-utils.c
+Trace_Recorder_Configuration/

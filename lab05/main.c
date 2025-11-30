@@ -73,7 +73,7 @@ void vPeriodicTimerCallback(TimerHandle_t xTimer) {
 }
 
 /* 2. One-Shot Timer Callback: Handles Response Timeout */
-void vTimeoutTimerCallback(TimerHandle_t xTimer) {/
+void vTimeoutTimerCallback(TimerHandle_t xTimer) {
     xTaskNotify(xMonitorHandle, NOTIFY_TIMEOUT, eSetBits);
 }
 

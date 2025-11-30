@@ -4,14 +4,14 @@ This project demonstrates the use of **Direct-to-Task Notifications** and **Soft
 
 ---
 
-## 👩‍💻 Student Information
+## Student Information
 * **Variant:** 4
 * **Scenario:** Simulation of "Client-Server" request processing.
 * **Key Mechanisms:** `xTaskNotify`, `xTimerCreate` (Periodic & One-shot).
 
 ---
 
-## ⚙️ Project Description
+## Project Description
 
 The system consists of three tasks interacting via notifications and two software timers controlling the workflow.
 
@@ -29,14 +29,14 @@ The system consists of three tasks interacting via notifications and two softwar
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1.  Open the FreeRTOS solution (`RTOSDemo.sln`) in Visual Studio.
 2.  Ensure `main.c` contains the Lab 5 code.
 3.  Make sure `configUSE_TIMERS` is set to `1` in `FreeRTOSConfig.h`.
 4.  Build and Run (F5).
 
-## ✅ Expected Output
+## Expected Output
 
 The console output demonstrates normal operation and timeout detection:
 
